@@ -1,11 +1,40 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import MainLayout from "../layouts/MainLayout.astro";
+import { getCollection } from "astro:content";
+import TypedBenefit from "../components/TypedBenefit.astro";
+import { siteConfig } from "../config/site-config";
+import '/src/styles/global.css';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const benefits = await getCollection("benefits");
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<MainLayout title="Sistema de Gestión de IPS">
+    <section class="flex flex-col md:flex-row items-center justify-between gap-8 p-8 bg-white">
+        <div class="w-full md:w-1/2">
+            <img src="src/assets/images/hospital.svg"/ alt="Imagen">
+        </div>
+
+        <div class="w-full md:w-1/2 space-y-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+                {siteConfig.title}
+            </h2>
+
+            <p class="text-lg text-gray-600 leading-relaxed">
+                Impulsamos la transformación digital en el sector salud con una
+                solución innovadora para Instituciones Prestadoras de Salud
+                (IPS). Nuestro software está diseñado para optimizar la gestión
+                y mejorar la eficiencia en la atención, integrando tecnología de
+                vanguardia para ofrecer una experiencia más ágil, accesible y
+                centrada en el usuario.
+            </p>
+        </div>
+    </section>
+    <section>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 pb-10 pl-5">
+            ¿En qué nos diferenciamos?
+        </h2>
+        <div class="flex flex-wrap justify-center gap-6">
+            {benefits.map((post) => <TypedBenefit post={post} />)}
+        </div>
+    </section>
+</MainLayout>

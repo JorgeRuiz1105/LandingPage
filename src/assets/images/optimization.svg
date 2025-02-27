@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Optimization">
+  <g color="#000" transform="translate(-450 -2059.362)" fill="#000000" class="color000000 svgShape">
+    <g transform="translate(451 1038)" fill="#000000" class="color000000 svgShape">
+      <path fill="#4bebb0" d="M21.5 4v1.12a4.5 4.5 0 0 0-1.395.571l-.787-.787-1.414 1.414.79.79a4.5 4.5 0 0 0-.577 1.392H17v2h1.12a4.5 4.5 0 0 0 .571 1.395l-.787.787 1.414 1.414.79-.79a4.5 4.5 0 0 0 1.392.577V15h2v-1.12a4.5 4.5 0 0 0 1.395-.571l.787.787 1.414-1.414-.79-.79a4.5 4.5 0 0 0 .577-1.392H28v-2h-1.12a4.5 4.5 0 0 0-.571-1.395l.787-.787-1.414-1.414-.79.79a4.5 4.5 0 0 0-1.392-.577V4Zm1 3.5c1.099 0 2 .901 2 2s-.901 2-2 2-2-.901-2-2 .901-2 2-2z" overflow="visible" style="isolation:auto;mix-blend-mode:normal" transform="translate(0 1020.362)" class="color4bbfeb svgShape"></path>
+      <circle cx="22.5" cy="1029.862" r="1.5" fill="#a8e6cf" stroke="#2b5545" stroke-linecap="round" stroke-linejoin="round" overflow="visible" style="isolation:auto;mix-blend-mode:normal" class="colore9eded svgShape colorStroke2b4255 svgStroke"></circle>
+    </g>
+    <path fill="#42f0af" d="M460.364 2070.362v1.831a7.364 7.364 0 0 0-2.282.937l-1.288-1.288-2.314 2.314 1.291 1.29a7.364 7.364 0 0 0-.943 2.28H453v3.273h1.831a7.364 7.364 0 0 0 .937 2.281l-1.288 1.288 2.314 2.314 1.29-1.29a7.364 7.364 0 0 0 2.28.942v1.828h3.272v-1.831a7.364 7.364 0 0 0 2.282-.937l1.288 1.289 2.314-2.315-1.291-1.29a7.364 7.364 0 0 0 .943-2.28H471v-3.272h-1.831a7.364 7.364 0 0 0-.937-2.282l1.288-1.288-2.314-2.314-1.29 1.291a7.364 7.364 0 0 0-2.28-.943v-1.828h-3.272z" overflow="visible" style="isolation:auto;mix-blend-mode:normal" class="colorf05542 svgShape"></path>
+    <circle cx="462" cy="2079.362" r="2.4" fill="#a8e6cf" stroke="#2b5545" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" overflow="visible" style="isolation:auto;mix-blend-mode:normal" class="colore9eded svgShape colorStroke2b4255 svgStroke"></circle>
+  </g>
+</svg>

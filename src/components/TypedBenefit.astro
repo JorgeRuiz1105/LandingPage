@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+    post: CollectionEntry<"benefits">;
+}
+const { post } = Astro.props;
+const frontmatter = post.data;
+---
+
+<div
+    class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64"
+>
+    <img
+        class="w-24 h-24 object-cover mb-4"
+        src={frontmatter.image}
+        alt={frontmatter.title}
+    />
+
+    <div>
+        <span class="text-xl font-bold text-gray-800">
+            {frontmatter.title}:
+        </span>
+        <span class="mt-2 text-gray-600 leading-relaxed">
+            {frontmatter.description}
+        </span>
+    </div>
+</div>
