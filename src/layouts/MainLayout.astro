@@ -1,6 +1,7 @@
 ---
 import Navbar from "../components/Navbar.astro";
 import ContactForm from "../components/ContactForm.astro";
+import { siteConfig } from "../config/site-config";
 ---
 
 <!DOCTYPE html>
@@ -9,7 +10,7 @@ import ContactForm from "../components/ContactForm.astro";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content={Astro.generator} />
-    <title>Document</title>
+    <title>{siteConfig.title}</title>
 </head>
 <body>
     <header>
